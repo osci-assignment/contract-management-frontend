@@ -44,7 +44,7 @@ npm run dev
 2. "사용자 가입" 탭으로 일반 유저 계정 생성 (관리자 승인 대기 상태)
    - 또는 백엔드가 최초 기동 시 자동으로 만들어둔 시드 계정(`worker1~3@osci.com` / `password1234`)을 바로 써도 됩니다.
 3. 관리자로 로그인 → `/users`에서 가입 신청한 유저 승인
-4. `/contracts/upload`에서 저장소에 포함된 [샘플 계약서](../sample-contracts)를 업로드 →
+4. `/contracts/upload`에서 저장소에 포함된 [샘플 계약서](./contracts/upload/)를 업로드 →
    잠시 후 `/contracts`에서 OCR 처리 결과 확인 (업체/프로젝트 자동 생성됨)
 5. 승인된 일반 유저로 로그인 → `/my/profile`에서 이름/직책/부서 등록
 6. 관리자로 다시 로그인 → `/projects/:id`에서 이름으로 작업자 검색 후 배정
